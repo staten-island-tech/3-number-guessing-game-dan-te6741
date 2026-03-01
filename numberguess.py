@@ -1,3 +1,1 @@
-number = 1-10
-
-print(number)
+print ("67")
