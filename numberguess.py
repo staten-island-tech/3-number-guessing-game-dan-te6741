@@ -1,3 +1,5 @@
-number = 1-10
+import random
 
-print(number)
+rightnum = random.randint (1,10)
+
+print (rightnum)
