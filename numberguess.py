@@ -9,6 +9,7 @@ guesshist = []
 
 while guessfr == 0:
     if usinput == rightnum:
+        guesshist.insert(guessnum, usinput)
         guessfr = guessfr+1
     elif usinput > rightnum:
         print ("Too high!")
